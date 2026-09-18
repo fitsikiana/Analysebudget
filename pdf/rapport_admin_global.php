@@ -51,10 +51,8 @@ foreach ($results as $result) {
     $depense = $result['total_argent'];
     $mois = $result['mois'];
     $taux = ($budget > 0) ? ($depense / $budget) * 100 : 0;
-
-    //COULEUR CONDITIONNELLE (bonus)
     if ($taux > 100) {
-        $pdf->SetTextColor(231,76,60); // rouge
+        $pdf->SetTextColor(231,76,60);
     } else {
         $pdf->SetTextColor(0,0,0);
     }

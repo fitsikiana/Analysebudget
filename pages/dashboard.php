@@ -511,10 +511,10 @@ $data_affichage = $data_affichage ?? ['Etude' => ['budget' => 0, 'depense' => 0]
                 <h2 class="page-title">Suivi Budgetaire Oniversity</h2>
             </div>
             <div style="display: flex; gap: 15px; align-items: center;">
-                <a href="ai_recap.php" class="btn btn-primary" style="background: linear-gradient(135deg, #6366f1, #a855f7); color: white; text-decoration: none; font-weight: bold; padding: 10px 18px; border-radius: 6px; box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3); display: flex; align-items: center; gap: 8px;">
+                <a href="ai_recap.php" class="btn btn-primary" style="color: black; text-decoration: none; font-weight: bold; padding: 10px 18px; border-radius: 6px; box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3); display: flex; align-items: center; gap: 8px;">
                     ANALYSE DU BUDGET
                 </a>
-                <div class="year-badge" style="color: black"><?php echo htmlspecialchars($_SESSION['email'] ?? 'Utilisateur'); ?></div>
+                <div class="btn btn-primary" style="color: black"><?php echo htmlspecialchars($_SESSION['email'] ?? 'Utilisateur'); ?></div>
             </div>
         </header>
 

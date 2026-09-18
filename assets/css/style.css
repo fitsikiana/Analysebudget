@@ -749,13 +749,13 @@ textarea.form-control {
 }
 
 .btn-primary {
-    background: var(--marine);
-    color: var(--blanc);
+    background: wheat;
+    color: black;
     border-color: var(--marine);
 }
 
 .btn-primary:hover {
-    background: var(--marine-fonce);
+    background: var(--gris-3);
     border-color: var(--marine-fonce);
 }
 

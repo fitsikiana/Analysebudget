@@ -1,0 +1,14 @@
+compte email/
+*.txt
+
+.env
+.env.*
+!.env.example
+
+/vendor/
+/node_modules/
+
+*.log
+
+uploads/
+temp/
